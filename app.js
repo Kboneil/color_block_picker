@@ -121,7 +121,7 @@ function randomNumber(min, max){
   }
 
 function chooseColor (array) {
-   return randomNumber(1, array.length);
+   return randomNumber(0, array.length - 1);
   }
 
 
